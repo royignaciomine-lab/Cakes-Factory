@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cakes Factory</title>
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box;}
+html{scroll-behavior:smooth;}
+body{font-family:Arial,sans-serif;background:#fff0f5;overflow-x:hidden;}
+
+.decoracion{position:fixed;z-index:-1;opacity:0.15;transition:0.5s;pointer-events:none;}
+.decoracion:hover{opacity:0.25;}
+
+.torta1{top:120px;left:-40px;width:250px;}
+.torta2{top:150px;right:-40px;width:280px;}
+.torta3{top:700px;left:-50px;width:250px;}
+.torta4{top:1000px;right:-50px;width:250px;}
+.torta5{top:1400px;left:50%;transform:translateX(-50%);width:300px;}
+
+header{background:linear-gradient(135deg,#ff69b4,#ff9ecf);color:white;text-align:center;padding:30px;}
+.logo{width:180px;margin-bottom:10px;transition:0.4s;}
+.logo:hover{transform:scale(1.05);}
+
+header h1{font-size:3em;}
+header p{margin-top:10px;font-size:1.1em;}
+
+nav{
+position:sticky;top:0;z-index:999;background:#ffb6c1;padding:15px;
+text-align:center;box-shadow:0 2px 10px rgba(0,0,0,.2);
+}
+
+nav a{text-decoration:none;color:black;font-weight:bold;margin:0 20px;transition:.3s;}
+nav a:hover{color:white;}
+
+section{padding:60px 20px;}
+h2{text-align:center;margin-bottom:25px;color:#d63384;}
+
+.productos{
+max-width:1000px;margin:auto;background:white;padding:40px;
+border-radius:20px;box-shadow:0 5px 20px rgba(0,0,0,.15);text-align:center;
+}
+
+.productos p{font-size:18px;color:#666;margin:8px 0;}
+
+.contacto{
+max-width:1000px;margin:auto;background:white;padding:40px;
+border-radius:20px;box-shadow:0 5px 20px rgba(0,0,0,.15);
+}
+
+.contacto p{margin:15px 0;font-size:18px;}
+
+footer{
+background:#ff69b4;color:white;text-align:center;
+padding:20px;margin-top:30px;
+}
+</style>
+</head>
+<body>
+
+<img src="t4.webp" class="decoracion torta1">
+<img src="t5.webp" class="decoracion torta2">
+<img src="t3.jpg" class="decoracion torta3">
+<img src="t2.webp" class="decoracion torta4">
+<img src="t1.webp" class="decoracion torta5">
+
+<header>
+<img src="CCFlogo.png" class="logo">
+<h1>🍰 Cakes Factory 🍰</h1>
+<p>Pastelería en La Paz, Bolivia.</p>
+</header>
+
+<nav>
+<a href="#productos">Productos</a>
+<a href="#contacto">Contacto</a>
+</nav>
+
+<section id="productos">
+<h2>Nuestros Productos</h2>
+
+<div class="productos">
+<h3>🍰 Productos Cakes Factory 🍰</h3><br>
+
+<p><strong>Mini pies de limón o maracuyá</strong> — 10 Bs.</p>
+<p><strong>Mini tartas de chocolate</strong> — 11 Bs.</p>
+<p><strong>Mini tartas de manzana</strong> — 8 Bs.</p>
+<p><strong>Postres en vaso (shots)</strong> — 10 Bs.</p>
+<p><strong>Cupcakes</strong> — 9 Bs.</p>
+<p><strong>Mini cupcakes</strong> — 5 Bs.</p>
+<p><strong>Cakepops</strong> — 7 Bs.</p>
+<p><strong>Mini cake de zanahoria y naranja con frosting de queso crema</strong> — 12 Bs.</p>
+<p><strong>Mini cake de limón con arándanos glaseado</strong> — 10 Bs.</p>
+<p><strong>Alfajores de maicena</strong> — 6 Bs.</p>
+<p><strong>Mini alfajores de maicena</strong> — 4 Bs.</p>
+<p><strong>Alfajores bañados en chocolate</strong> — 9 Bs.</p>
+<p><strong>Mini alfajores bañados en chocolate</strong> — 5 Bs.</p>
+<p><strong>Conitos con crema</strong> — 7 Bs.</p>
+<p><strong>Mini conitos con crema</strong> — 4 Bs.</p>
+<p><strong>Éclairs con crema</strong> — 8 Bs.</p>
+<p><strong>Mini éclairs con crema</strong> — 5 Bs.</p>
+<p><strong>Brownies</strong> — 12 Bs.</p>
+<p><strong>Mini brownies</strong> — 7 Bs.</p>
+<p><strong>Galletas de pie de manzana</strong> — 5 Bs.</p>
+<p><strong>Galletas con chips de chocolate</strong> — 6 Bs.</p>
+<p><strong>Mini galletas con chips de chocolate</strong> — 4 Bs.</p>
+<p><strong>Galletas de avena</strong> — 5 Bs.</p>
+<p><strong>Mini galletas de avena</strong> — 3 Bs.</p>
+<p><strong>Empanadas de queso</strong> — 6 Bs.</p>
+<p><strong>Mini empanadas de queso</strong> — 4 Bs.</p>
+<p><strong>Empanadas de jamón y queso</strong> — 7 Bs.</p>
+<p><strong>Mini empanadas de jamón y queso</strong> — 5 Bs.</p>
+<p><strong>Empanadas caprese</strong> — 7 Bs.</p>
+<p><strong>Mini empanadas caprese</strong> — 5 Bs.</p>
+<p><strong>Empanadas pizza</strong> — 8 Bs.</p>
+<p><strong>Mini empanadas pizza</strong> — 6 Bs.</p>
+<p><strong>Rollitos de queso</strong> — 6 Bs.</p>
+<p><strong>Mini rollitos de queso</strong> — 4 Bs.</p>
+<p><strong>Palitos de queso hojaldrados</strong> — 7 Bs.</p>
+<p><strong>Rollo de queso entero</strong> — 35 Bs. y 45 Bs.</p>
+<p><strong>Vaso con 8 mini galletas choco chips o red velvet</strong> — 16 Bs.</p>
+<p><strong>Bolsita de galletas de naranja, canela o vainilla, 200 gr.</strong> — 16 Bs.</p>
+<p><strong>Cuchareables (8oz)</strong> — 18 Bs.</p>
+<p><strong>Tortas en vaso (10oz)</strong> — 22 Bs.</p>
+<p><strong>Mini torta individual</strong> — 18 Bs.</p>
+<p><strong>Mini torta 4 personas (Pie de limón, Pie de maracuyá y Oreo)</strong> — 45 Bs.</p>
+<p><strong>Mini torta 4 personas (Chocolate y Red Velvet)</strong> — 50 Bs.</p>
+<p><strong>Queques</strong> — 30 Bs. y 40 Bs.</p>
+<p><strong>Sabores:</strong> plátano, naranja, marmolado y limón.</p>
+<p><strong>Zanahoria con naranja con frosting de queso crema</strong> — 45 Bs. y 55 Bs.</p>
+<p><strong>Limón con arándanos, glaseado</strong> — 35 Bs. y 45 Bs.</p>
+<p><strong>Chocolate con frosting de maracuyá</strong> — 40 Bs. y 50 Bs.</p>
+<p><strong>Limón con semillas de amapola, glaseado</strong> — 35 Bs. y 45 Bs.</p>
+</div>
+</section>
+
+<section id="contacto">
+<h2>Contacto</h2>
+<div class="contacto">
+<p>
+📞
+<a href="https://wa.me/59172051651" target="_blank">
+Contactar por WhatsApp
+</a>
+</p>
+<p>📍 Dirección: Edif. Vía 22, Calle 22 de Calacoto Nº 8225, casi esquina Av. Montenegro, La Paz, Bolivia</p>
+</div>
+</section>
+
+<footer>
+© 2026 Cakes Factory - Todos los derechos reservados
+</footer>
+
+</body>
+</html>
